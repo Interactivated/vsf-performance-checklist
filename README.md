@@ -2,7 +2,7 @@
 
 # Frontend options
 
-- Enable cache for SSR output in Redis 
+- Enable cache for SSR output in Redis. 
 Related [json option](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
 
 ```json
