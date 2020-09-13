@@ -3,7 +3,7 @@
 # Frontend options
 
 - Enable cache for SSR output in Redis 
-[related config](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
+Related [json option](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
 
 ```json
 "useOutputCacheTagging": false,
@@ -36,8 +36,8 @@ This is options allowes only clear any entities by cache tags in Varnish. And in
 
 - Setup the Varnish cache for the api requests. Related [VCL config](https://github.com/DivanteLtd/vue-storefront-api/blob/master/docker/varnish/config.vcl)
 
-- Enable cache for resized images processing `"active": true`
-[related config](https://github.com/DivanteLtd/vue-storefront-api/blob/master/config/default.json#L333)
+- Enable cache for resized images processing `"active": true`.
+Related [json option](https://github.com/DivanteLtd/vue-storefront-api/blob/master/config/default.json#L333)
 
 ```json
 "imageable": {
