@@ -18,6 +18,18 @@
   },
 ```
 - Varnish cache over SSR output in Redis
+[Varnish module](https://github.com/new-fantastic/vsf-cache-varnish)
+
+This is options allowes only clear any entities by cache tags in Varnish. And includes predefined for VSF [ACL config](https://github.com/new-fantastic/vsf-cache-varnish/blob/master/docker/varnish/config.vcl)
+
+```json
+"varnish": {
+  "enabled": true,
+  "host": "localhost",
+  "port": 80
+}
+```
+
 
 
 # Api options
