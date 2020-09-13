@@ -1,6 +1,9 @@
 Performance checklist for VSF (Vue Storefront) projects.
 ========================================================
 
+This is checklist extends the official VSF [production guide](https://docs.vuestorefront.io/guide/installation/production-setup.html)
+with emphasis on performance.
+
 ## Frontend options
 
 - Enable cache for SSR output in Redis. 
