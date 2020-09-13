@@ -19,7 +19,7 @@ Related [json option](https://github.com/DivanteLtd/vue-storefront/blob/master/c
     "host": "localhost",
     "port": 6379,
     "db": 0
-  },
+},
 ```
 - Setup the Varnish cache over SSR output in Redis
 [Varnish module](https://github.com/new-fantastic/vsf-cache-varnish)
