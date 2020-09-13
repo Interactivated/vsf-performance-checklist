@@ -2,7 +2,7 @@ Performance checklist for VSF (Vue Storefront) projects.
 ========================================================
 
 This checklist extends the official VSF [production guide](https://docs.vuestorefront.io/guide/installation/production-setup.html)
-with focus on performance.
+with focus on the performance.
 
 ## Frontend options
 
