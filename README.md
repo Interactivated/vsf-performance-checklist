@@ -1,6 +1,7 @@
-# Performance checklist for VSF (Vue Storefront) projects.
+Performance checklist for VSF (Vue Storefront) projects.
+========================================================
 
-# Frontend options
+## Frontend options
 
 - Enable cache for SSR output in Redis. 
 Related [json option](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
@@ -32,7 +33,7 @@ This is options allowes only clear any entities by cache tags in Varnish. And in
 
 
 
-# Api options
+## Api options
 
 - Setup the Varnish cache for the api requests. Related [VCL config](https://github.com/DivanteLtd/vue-storefront-api/blob/master/docker/varnish/config.vcl)
 
