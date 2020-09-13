@@ -3,7 +3,7 @@
 # Frontend options
 
 - Enable cache for SSR output in Redis 
-[reference to config](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
+[related config](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
 
 ```json
 "useOutputCacheTagging": false,
@@ -23,7 +23,7 @@
 # Api options
 
 - Enable cache for resized images processing `"active": true`
-[Api config](https://github.com/DivanteLtd/vue-storefront-api/blob/master/config/default.json#L333)
+[related config](https://github.com/DivanteLtd/vue-storefront-api/blob/master/config/default.json#L333)
 
 ```json
 "imageable": {
