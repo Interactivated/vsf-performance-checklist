@@ -10,8 +10,8 @@ with emphasis on performance.
 Related [json option](https://github.com/DivanteLtd/vue-storefront/blob/master/config/default.json#L13)
 
 ```json
-"useOutputCacheTagging": false,
-"useOutputCache": false,
+"useOutputCacheTagging": true,
+"useOutputCache": true,
 ```
 
 ```json
