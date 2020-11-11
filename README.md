@@ -28,10 +28,8 @@ This is options allowes only clear any entities by cache tags in Varnish. And in
 
 ```json
 "varnish": {
-  "enabled": true,
-  "host": "localhost",
-  "port": 80
-}
+  "enabled": true
+},
 ```
 
 
@@ -39,6 +37,14 @@ This is options allowes only clear any entities by cache tags in Varnish. And in
 ## Api options
 
 - Setup the Varnish cache for the api requests. Related [VCL config](https://github.com/DivanteLtd/vue-storefront-api/blob/master/docker/varnish/config.vcl)
+
+```json
+"varnish": {
+    "enabled": true,
+    "host": "localhost",
+    "port": 80
+},
+```
 
 - Enable cache for resized images processing `"active": true`.
 Related [json options](https://github.com/DivanteLtd/vue-storefront-api/blob/master/config/default.json#L333)
